@@ -2,9 +2,6 @@ package model;
 
 import java.io.Serializable;
 
-/**
- * Created by paulodichone on 3/26/15.
- */
 public class Event implements Serializable {
     private static final long id = 1L;
     private String title;
