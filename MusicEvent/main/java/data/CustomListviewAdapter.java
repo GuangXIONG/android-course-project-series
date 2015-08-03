@@ -21,9 +21,6 @@ import musicevent.magadistudio.com.musicevent.ActivityEventDetails;
 import musicevent.magadistudio.com.musicevent.AppController;
 import musicevent.magadistudio.com.musicevent.R;
 
-/**
- * Created by paulodichone on 3/26/15.
- */
 public class CustomListviewAdapter extends ArrayAdapter<Event> {
     private LayoutInflater inflater;
     private ArrayList<Event> data;
