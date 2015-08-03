@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#f06292"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Contact"
+        android:textStyle="bold"
+        android:id="@+id/contact_info"
+        android:textSize="23sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/contact_name"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Contact's Name"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:background="#ffffff"
+        android:layout_below="@+id/contact_info"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/contact_phone"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Contact's Phone"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:background="#ffffff"
+        android:layout_below="@+id/contact_name"
+        android:layout_alignLeft="@+id/contact_name"
+        android:layout_alignStart="@+id/contact_name" />
+
+    <EditText
+        android:id="@+id/contact_note"
+        android:layout_width="250dp"
+        android:layout_height="180dp"
+        android:hint="Enter Contact's Note"
+        android:textSize="20sp"
+        android:gravity="start"
+        android:background="#ffffff"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/contact_phone"
+        android:layout_alignLeft="@+id/contact_phone"
+        android:layout_alignStart="@+id/contact_phone" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SAVE"
+        android:id="@+id/save_button"
+        android:layout_marginBottom="46dp"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
