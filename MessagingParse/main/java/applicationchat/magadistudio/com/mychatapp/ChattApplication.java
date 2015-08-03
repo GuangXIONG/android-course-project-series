@@ -7,9 +7,6 @@ import com.parse.ParseObject;
 
 import model.Message;
 
-/**
- * Created by paulodichone on 4/10/15.
- */
 public class ChattApplication extends Application {
 
     public static final String APP_KEY_ID = "mzF0sWtqPp1OIols6xUiR8EzJey2qiBSvdzBlp83";
